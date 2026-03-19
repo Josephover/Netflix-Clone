@@ -178,32 +178,19 @@ Actualmente no hay bugs reportados. Si encuentras alguno, por favor abre un _iss
 4. Hacer push a la rama (`git push origin feature/mi-feature`)
 5. Abrir un **Pull Request**
 
-## 📜 Licencia
-
-Este proyecto está bajo la Licencia **MIT**. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
-```
-MIT License
-
-Copyright (c) 2026 [Tu Nombre]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
 
 ## 👨‍💻 Autor
 
-**[Tu Nombre]**
-- GitHub: [@tuusuario](https://github.com/tuusuario)
-- Email: tuemail@example.com
+**[Josephover]**
+- GitHub: [@Josephover](https://github.com/Josephover)
+- Email: michelcruzati@gmail.com
 
 ## 📞 Contacto y Soporte
 
 Si tienes preguntas o necesitas ayuda:
 - Abre un **Issue** en el repositorio
-- Envía un correo a: [tuemail@example.com]
-- Visita la página del proyecto: [GitHub Link]
+- Envía un correo a: [michelcruzati@gmail.com]
+- Visita la página del proyecto: []
 
 ## 🙏 Agradecimientos
 
