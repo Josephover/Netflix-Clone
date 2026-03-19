@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+        
+    <div class="container">
+        <h1>Inicia sesión</h1>
+        <form id="loginForm">
+            <label for="email">Email o número de celular</label>
+            <input type="text" id="email" name="email" placeholder="Ingresa tu email o número de celular" required>
+            
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+            
+            <button type="button" class="login-button" onclick="handleLogin()">Iniciar Sesion</button>
+            <div class="options">
+                <a href="#">¿Olvidaste la contraseña?</a>
+                <div class="checkbox">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Recuérdame</label>
+                </div>
+            </div>
+        </form>
+
+        <div class="signup">
+            <p>¿Primera vez en Netflix? <a href="#">Suscríbete ahora.</a></p>
+        </div>
+
+        <div class="recaptcha">
+            <p>Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. <a href="#">Más info.</a></p>
+        </div>
+    </div>
+<!--FOOTER-->
+    <div class="footer">
+        <h2>¿Preguntas? Llama +593 0999999999</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">Preguntas frecuentes</a>
+                <a href="#">Relaciones con inversionistas</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Prueba de velocidad</a>
+            </div>
+            <div class="col">
+                <a href="#">Centro de ayuda</a>
+                <a href="#">Empleo</a>
+                <a href="#">Preferencias de cookies</a>
+                <a href="#">Avisos legales</a>
+            </div>
+            <div class="col">
+                <a href="#">Cuenta</a>
+                <a href="#">Forma de ver</a>
+                <a href="#">Información corporativa</a>
+                <a href="#">Solo en Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Prensa</a>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Contáctanos</a>
+            </div>
+        </div>
+        <button class="language-btn">English <img src="images/down-icon.png" alt="icon"></button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

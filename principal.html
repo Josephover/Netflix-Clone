@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <video autoplay muted loop class="background-video">
+            <source src="images/videoprincipal.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <div>
+                <button class="language-btn">English <img src="images/down-icon.png"></button>
+                <button>Mi Cuenta</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Películas y series ilimitadas y mucho más</h1>
+            <h3>A partir de $4,99. Cancela cuando quieras.</h3>
+            <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+            <form class="email-signup">
+                <input type="email" placeholder="Correo electronico" required>
+                <button type="submit">Estamos listos</button>
+            </form>
+        </div>
+    </div>
+    <!--INFORMACION DE LAS PELICULAS-->
+    <main class="catalgos">
+        <section class="catalogos--peliculas">
+            <h1>Películas</h1>
+            <div class="carrusel-contenedor">
+                <button class="prev oculto" id="prev1">⟨</button>
+                <div class="carrusel" id="carrusel1">
+                    <div class="item"><img src="images/pelicula1.jpg" alt="1">
+                        <p>1</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula2.jpg" alt="2">
+                        <p>2</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula3.jpg" alt="3">
+                        <p>3</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula4.jpg" alt="4">
+                        <p>4</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula5.jpg" alt="5">
+                        <p>5</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula6.jpg" alt="6">
+                        <p>6</p>
+                    </div>
+                    <div class="item"><img src="images/Pelicula7.jpg" alt="7">
+                        <p>7</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula8.jpg" alt="8">
+                        <p>8</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula9.jpg" alt="9">
+                        <p>9</p>
+                    </div>
+                    <div class="item"><img src="images/pelicula10.jpg" alt="10">
+                        <p>10</p>
+                    </div>
+                </div>
+                <button class="next" id="next1">⟩</button>
+            </div>
+        </section>
+        <section class="catalogos--peliculas">
+            <h1>Series</h1>
+            <div class="carrusel-contenedor">
+                <button class="prev oculto" id="prev2">⟨</button>
+                <div class="carrusel" id="carrusel2">
+                    <div class="item"><img src="images/pelicula1.jpg" alt="1">
+                    </div>
+                    <div class="item"><img src="images/pelicula2.jpg" alt="2">
+                    </div>
+                    <div class="item"><img src="images/pelicula3.jpg" alt="3">
+                    </div>
+                    <div class="item"><img src="images/pelicula4.jpg" alt="4">
+                    </div>
+                    <div class="item"><img src="images/pelicula5.jpg" alt="5">
+                    </div>
+                    <div class="item"><img src="images/pelicula6.jpg" alt="6">
+                    </div>
+                    <div class="item"><img src="images/Pelicula7.jpg" alt="7">
+                    </div>
+                    <div class="item"><img src="images/pelicula8.jpg" alt="8">
+                    </div>
+                    <div class="item"><img src="images/pelicula9.jpg" alt="9">
+                    </div>
+                    <div class="item"><img src="images/pelicula10.jpg" alt="10">
+                    </div>
+                </div>
+                <button class="next" id="next2">⟩</button>
+            </div>
+        </section>
+        <section class="catalogos--peliculas">
+            <h1>Documentales</h1>
+            <div class="carrusel-contenedor">
+                <button class="prev oculto" id="prev3">⟨</button>
+                <div class="carrusel" id="carrusel3">
+                    <div class="item"><img src="images/pelicula1.jpg" alt="1">
+                    </div>
+                    <div class="item"><img src="images/pelicula2.jpg" alt="2">
+                    </div>
+                    <div class="item"><img src="images/pelicula3.jpg" alt="3">
+                    </div>
+                    <div class="item"><img src="images/pelicula4.jpg" alt="4">
+                    </div>
+                    <div class="item"><img src="images/pelicula5.jpg" alt="5">
+                    </div>
+                    <div class="item"><img src="images/pelicula6.jpg" alt="6">
+                    </div>
+                    <div class="item"><img src="images/Pelicula7.jpg" alt="7">
+                    </div>
+                    <div class="item"><img src="images/pelicula8.jpg" alt="8">
+                    </div>
+                    <div class="item"><img src="images/pelicula9.jpg" alt="9">
+                    </div>
+                    <div class="item"><img src="images/pelicula10.jpg" alt="10">
+                    </div>
+                </div>
+                <button class="next" id="next3">⟩</button>
+            </div>
+        </section>
+    </main>
+    <!---CONTENEDOR DE MOTIVOS-->
+    <div class="container">
+        <div class="content-box">
+            <h3>Disfruta en tu TV</h3>
+            <p>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+            <img src="images/pantalla.svg" alt="pantalla">
+        </div>
+        <div class="content-box">
+            <h3>Descarga tus series para verlas offline</h3>
+            <p>Guarda tu contenido favorito y siempre tendrás algo para ver.</p>
+            <img src="images/estrella.svg" alt="estrella">
+        </div>
+        <div class="content-box">
+            <h3>Disfruta donde quieras</h3>
+            <p>Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.</p>
+            <img src="images/mano.svg" alt="">
+        </div>
+        <div class="content-box">
+            <h3>Crea perfiles para niños</h3>
+            <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para
+                ellos, gratis con tu membresía.</p>
+            <img src="images/corazon.svg" alt="corazon">
+        </div>
+    </div>
+
+    <!--PREGUNTAS FRECUENTES-->
+    <div class="faq">
+        <h2>Preguntas frecuentes</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first">Que es Netflix?</label>
+                <div class="content">
+                    <p>Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y
+                        documentales premiados en casi cualquier pantalla conectada a internet.
+                        Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo
+                        nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">Cuanto cuesta Netflix?</label>
+                <div class="content">
+                    <p>Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por
+                        una tarifa plana mensual. Planes desde $4,99 hasta $10,99 al mes (sin impuestos incluidos). Sin
+                        costos adicionales ni contratos.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Donde puedo ver Netflix?</label>
+                <div class="content">
+                    <p>Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido
+                        al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con
+                        conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets,
+                        reproductores multimedia y consolas de juegos.
+                        Además, puedes descargar tus series favoritas con la app para iOS o Android. Con la función de
+                        descarga, puedes ver contenido donde vayas y sin conexión a internet. Lleva Netflix contigo
+                        adonde sea.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth">Como cancelo?</label>
+                <div class="content">
+                    <p>Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo
+                        dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="five">
+                <label for="five">Que puedo ver en Netflix?</label>
+                <div class="content">
+                    <p>Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados
+                        y más. Todo lo que quieras ver, cuando quieras.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="six">
+                <label for="six">Es bueno Netflix para los niños?</label>
+                <div class="content">
+                    <p>La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el
+                        control mientras los peques disfrutan series y películas familiares en su propio espacio.
+
+                        Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten
+                        restringir el contenido que pueden ver los niños en función de la clasificación por edad y
+                        bloquear determinados títulos que no quieras que los niños vean.</p>
+                </div>
+            </li>
+        </ul>
+        <small>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de
+            Netflix.</small>
+        <form class="Boton2">
+            <button type="submit">Comienza ya</button>
+        </form>
+    </div>
+    <!--FOOOTER-->
+    <div class="footer">
+        <h2>Preguntas llama +593 0999999999</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">Preguntas frecuentes</a>
+                <a href="#">Relaciones con inversionistas</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Prueba de velocidad</a>
+            </div>
+            <div class="col">
+                <a href="#">Centro de ayuda</a>
+                <a href="#">Empleo</a>
+                <a href="#">Preferencias de cookies</a>
+                <a href="#">Avisos legales</a>
+            </div>
+            <div class="col">
+                <a href="#">Cuenta</a>
+                <a href="#">Forma de ver</a>
+                <a href="#">Informacion coorporativa</a>
+                <a href="#">Solo en netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Prensa</a>
+                <a href="#">Terminos y condiciones</a>
+                <a href="#">Contactanos</a>
+            </div>
+        </div>
+        <button class="language-btn">Español <img src="images/down-icon.png" alt="icon"></button>
+        <p class="copyright-txt">Netflix Ecuador</p>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
